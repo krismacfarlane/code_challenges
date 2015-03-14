@@ -11,8 +11,5 @@ require_relative 'person.rb'
 require_relative 'plane.rb'
 require_relative 'quadcopter.rb'
 require_relative 'tank.rb'
-require 'pry'
-
-binding.pry
 
 

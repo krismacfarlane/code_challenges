@@ -1,4 +1,4 @@
-Create a Github repo that contains these classes:
+This repo contains these classes in the lib folder:
 * Car
 * Motorcycle
 * Vehicle
@@ -10,10 +10,10 @@ Create a Github repo that contains these classes:
 * ElectricCar
 * ElectricMotorcycle
 * ElectricTank
+* Mode of Transport (which has all the weaponry methods)
+* Aircraft
 
-Add any additional classes or modules that you think are appropriate.
-
-Where appropriate, each class should have a combination of class and instance methods:
+The classes have some or all of these methods:
 
 * wheelnum
 * max_passengers
@@ -23,13 +23,11 @@ Where appropriate, each class should have a combination of class and instance me
 * model_num
 * weapons?
 
-If `weapons?` returns `true`, it should also implement:
+If `weapons?` returns `true`, it implements:
 
 * shoot!
 * reload!
 * remaining_ammo
 * max_ammo
 
-You can use ActiveSupport::Concern but beyond that, try to refrain from any Active* modules or classes.
-We're looking for smart, efficient, expandable ways of implementing this. Bonus points for any tests you want to write!
-There isn't a _correct_ answer but there are definitely some wrong answers.
+I wrote a few RSpec tests to check that my electric and weapon methods were working the way I was expecting.
